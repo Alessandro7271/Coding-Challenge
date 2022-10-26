@@ -1,0 +1,87 @@
+body{
+  background-image: url("background.jpg");
+  background-size: 1920px;
+  padding: 20px;
+}
+
+.contenitore{
+  margin: auto;
+  max-width: 1200px;
+  height: 900px;
+	background-color:rgba(0,0,0,0.5);
+  border-radius: 30px;
+}
+.logo{
+ max-width: 1200px;
+ width: 200px;
+ margin: auto;
+ display:block;
+ text-align:center;
+ padding: 20px;
+ position:relative;
+ top: 20px;
+}
+
+header > h1{
+  text-align:center;
+  color:	#00ff00;
+  font-size: 35px;
+}
+.contenitore > header, .nav{
+  position:top:35px;
+
+}
+.nav{
+  width: 850px;
+  height: 25px;
+  background-color:#00ff00;
+  display:block;
+  padding:10px;
+  margin: 0 auto;
+  text-align:center;
+  border-radius: 10px;
+}
+main{
+  margin:0;
+  font-style: italic;
+  font-size: 10px;
+  color: white;
+  margin:auto;
+  width: 1000px;
+}
+main  h1{
+  font-style: oblique;
+  color: white;
+  font-size: 30px;
+  display: block;
+}
+main p{
+  font-style: oblique;
+  color: white;
+  font-size: 20px;
+}
+.orange{
+  margin: 0;
+  display: block;
+  width:350px;
+  background-color: #daa520;
+  height:30px;
+  border-radius: 10px;
+}
+.green{
+  margin: 0;
+  display: block;
+  width:500px;
+  background-color: green;
+  height:30px;
+  border-radius: 10px;
+}
+.red{
+  margin: 0;
+  display: block;
+  width:200px;
+  background-color: red;
+  height:30px;
+  border-radius: 10px;
+
+}
